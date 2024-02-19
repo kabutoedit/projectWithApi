@@ -1,0 +1,124 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+}
+
+#root {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: left;
+	color: white;
+}
+
+nav {
+	position: fixed;
+	padding: 200px;
+	top: 0;
+	width: 100%;
+	text-align: left;
+	padding: 1rem;
+	color: white;
+	padding: 30px;
+}
+
+.scrolled {
+	backdrop-filter: blur(3px);
+}
+
+nav ul {
+	padding-left: 200px;
+	display: flex;
+	gap: 5rem;
+}
+
+nav a {
+	font: menu;
+	color: white;
+	font-size: 0.9rem;
+}
+
+nav a:hover {
+	color: white;
+	border-bottom: 2px solid white;
+	display: inline-block;
+}
+
+.active {
+	border-bottom: 2px solid white;
+	display: inline-block;
+}
+
+.dogImg img {
+	max-width: 300px;
+	max-height: 300px;
+}
+
+.funnyPage {
+	padding-top: 50px;
+	text-align: center;
+}
+
+.manga {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	text-align: center;
+}
+
+.container {
+	padding-top: 50px;
+	width: 90%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+	text-align: center;
+}
+
+.container div {
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 10px;
+	padding: 10px;
+	width: 200px;
+	height: 330px;
+	color: white;
+}
+
+/* .container div:hover {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border-radius: 10px;
+	border: 1px solid black;
+	padding: 10px;
+
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+} */
+
+.container img {
+	max-height: 250px;
+}
+
+.footer {
+	display: flex;
+	text-align: center;
+	margin-top: 20px;
+}
